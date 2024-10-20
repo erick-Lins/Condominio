@@ -1,0 +1,1 @@
+Id:12;NumberTow:2;Floors:15;HasRooftop:False;HasElevator:True;PerimeterSquare:1000;
