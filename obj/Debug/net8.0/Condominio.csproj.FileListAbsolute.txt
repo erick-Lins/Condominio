@@ -12,3 +12,4 @@ D:\site\Condominio\obj\Debug\net8.0\refint\Condominio.dll
 D:\site\Condominio\obj\Debug\net8.0\Condominio.pdb
 D:\site\Condominio\obj\Debug\net8.0\Condominio.genruntimeconfig.cache
 D:\site\Condominio\obj\Debug\net8.0\ref\Condominio.dll
+D:\site\Condominio\obj\Debug\net8.0\Condominio.sourcelink.json

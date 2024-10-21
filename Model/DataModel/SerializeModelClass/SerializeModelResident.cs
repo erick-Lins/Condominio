@@ -1,10 +1,10 @@
 public class SerializeModelResident
 {
-    string path = "D:/site/Condominio/ResidentData.txt";
+  
     SerializeWriteModel writer = new();
-    Resident resident =  new("5728625762", "777","51564",true);
+    Resident resident =  new(Guid.NewGuid(), "777","51564",true);
 
-    public void ResidentSerializer()
+    public void ResidentSerializer(string path)
     {
         writer.WriteFile(path, writer.SerializeToString(resident));
     }

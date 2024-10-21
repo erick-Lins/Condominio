@@ -3,16 +3,13 @@ using System.IO;
 
 public class SerializeModelOwner
 { 
-
-    string path = "D:/site/Condominio/OwnerData.txt";
     SerializeWriteModel writer = new();
-    SerializeWriteModel serializeWriteModel = new();
     
-    ModelOwner owner = new("777", "Erick", "28/01/2004","He");
+    ModelOwner owner = new(Guid.NewGuid(),"Luanderson","01/06/2001","They");
     
-    public void OwnerSerializer() 
+    public void OwnerSerializer(string path) 
     {
-        writer.WriteFile(path,serializeWriteModel.SerializeToString(owner));
+        writer.WriteFile(path,writer.SerializeToString(owner));
     }
 
 
